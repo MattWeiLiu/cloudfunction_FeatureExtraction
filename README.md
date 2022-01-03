@@ -2,7 +2,7 @@ The repository for apnea diagnosis feature extraction on GCP cloudfunction
 
 [Cloud Functions](https://console.cloud.google.com/functions/details/asia-east1/FeatureExtraction?hl=zh-tw&project=develop-335208)
 
-## Step
+## Steps
 1. Upload data to [GCS database](https://console.cloud.google.com/storage/browser/pranaq_database;tab=objects?forceOnBucketsSortingFiltering=false&hl=zh-tw&project=develop-335208&prefix=&forceOnObjectsSortingFiltering=false).
 2. Generate ticket file (CSV).
 3. Upload ticket to  [GCS tickets](https://console.cloud.google.com/storage/browser/feature_tickets;tab=objects?forceOnBucketsSortingFiltering=false&hl=zh-tw&project=develop-335208&prefix=&forceOnObjectsSortingFiltering=false).
